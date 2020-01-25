@@ -1,0 +1,8 @@
+Q4)SSH into Instance B using instance A and try to install nginx.
+
+
+1) Open SSH Terminal of public instance
+
+2) Type ssh private-instance-name (we’re in the ssh terminal of private instance now)
+
+3) Type sudo apt-get install nginx

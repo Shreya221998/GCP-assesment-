@@ -1,0 +1,20 @@
+Q3) configure NAT so instance can access Internet. 
+
+Cloud NAT (network address translation) allows Google Cloud virtual machine (VM) instances without external IP addresses
+and private Google Kubernetes Engine (GKE) clusters to connect to the Internet.
+
+1) Go to Cloud NAT
+
+2) Click Get Started
+
+3) Give the gateway name
+
+4) Select VPC Network 
+
+5) Specify region
+
+6) Create a cloud router
+
+7) In NAT Mapping select ‘Primary ranges for all subnets’ (Primary Range is for Compute Engines secondary ranges is for Kubernetes
+
+8) Click create (Now all the private subnets in the region are connected to the internet through the NAT Gateway)

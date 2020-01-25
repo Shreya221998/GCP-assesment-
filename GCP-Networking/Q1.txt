@@ -1,0 +1,23 @@
+Q1) Create an instance A  in default VPC.
+
+1)Go to the VM instances page.
+
+2)Select your project and click Continue.
+
+3)Click the Create instance button.
+
+4)Specify a Name for your instance. Here name your instance as A
+
+5)Optionally, change the Zone for this instance.
+
+6)Select a Machine configuration for your instance.Select the Machine family , configuration and type as you like. 
+
+7)In the OS images tab, choose an image.
+
+8)Click Select.
+
+9)To permit HTTP or HTTPS traffic to the VM instance, select Allow HTTP traffic or Allow HTTPS traffic.
+
+10)Click the Management, security, disks, networking, sole tenancy section and go to networking section to make sure you are in default VPC 
+
+11)Click the Create button to create and start the instance.
