@@ -1,0 +1,17 @@
+Create an instance and install apache2 on it.
+
+In StackDriver create a policy and name it.
+
+Metrics to be considered for health checks are :
+
+CPU Utilization
+Uptime Check
+Reasons :
+
+CPU Utilization : To keep a check on number of requests served.
+Uptime check : To check whether our website is being served or not.(If instance is down our website wont get served.)
+Metric Values :
+
+CPU Utilization : Violates when Any compute.googleapis.com/instance/cpu/utilization stream is above a threshold of 0.000001 for greater than 1 minute.
+
+Uptime check : Violates when Any monitoring.googleapis.com/uptime_check/check_passed stream is above a threshold of 1 for greater than 1 minute.
