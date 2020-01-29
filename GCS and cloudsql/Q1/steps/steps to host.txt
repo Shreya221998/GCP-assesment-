@@ -1,0 +1,21 @@
+Create Storage bucket
+  
+1 Log in to Cloud Storage and click “Create Bucket.”
+2 Enter the bucket name (important tips: if you would like to point your domain name to storage then you got to give the bucket name as a domain name)
+3 Select the storage class (leave multi-regional for high-performance & availability)
+4 Select location from US, EU & Asia (choose the nearest to your audience)
+5 Click “Create.”
+
+Configuring Storage Bucket
+
+It’s necessary to set up your bucket for your site to be accessible over the Internet.
+Select the bucket from the list
+Click on setting icon at right side >>Edit bucket permissions
+It will open permissions properties at the right side
+Type allUsers in “Add members” field and select permission as “Storage Object Viewer.”
+
+Uploading Static Website
+
+Click on newly created bucket
+Click “Upload folder/Upload files” and choose your website files to upload
+Ensure index.html is present in bucket root
